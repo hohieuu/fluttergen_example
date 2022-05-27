@@ -1,0 +1,10 @@
+name: flutter
+
+packages:
+  - "**"
+
+ignore:
+  - "docs/**"
+
+scripts:
+  flutter-gen: melos exec "$PWD/script.sh"
